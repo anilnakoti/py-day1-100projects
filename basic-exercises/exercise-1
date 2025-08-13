@@ -1,0 +1,19 @@
+# Calculate the multiplication and sum of two numbers
+
+# Given two integer numbers, write a Python program to return their product only if the product is equal to or lower than 1000. Otherwise, return their sum.
+
+# Given 1
+# number_one = 20
+# number_two = 30
+
+# Given 2
+number_one = 40
+number_two = 30
+
+product = number_one * number_two
+sum = number_one + number_two
+
+if (product <= 1000):
+    print(product)
+else:
+    print(sum)
